@@ -10,7 +10,7 @@ function check_prime(num){
 };
 
 let ans=check_prime(12);
-if(     ){
+if(ans==2){
   console.log("is prime")
 }else{
   console.log("not prime")
