@@ -11,7 +11,7 @@ function check_prime(number){
   return factor;
 };
 
-let answer = check_prime(12);
+let answer = check_prime(23);
 
 if(answer==2){
   console.log("is Prime")
