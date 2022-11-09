@@ -1,17 +1,21 @@
 
-function check_prime(num){
-  let count=0;
-  for(let i=0;i<=num;i++){
-    if(num%i==0){
-      count++
+function check_prime(number){
+  let factor=0;
+
+  for(let i = 1; i <= number; i++){
+    if(number % i == 0){
+
+      factor++
     }
   }
-  return count;
+  return factor;
 };
 
-let ans=check_prime(12);
-if(     ){
-  console.log("is prime")
+let answer = check_prime(12);
+
+if(answer==2){
+  console.log("is Prime")
+
 }else{
-  console.log("not prime")
+  console.log("is not Prime")
 }
