@@ -15,7 +15,6 @@ let answer = check_prime(23);
 
 if(answer==2){
   console.log("is Prime")
-
 }else{
   console.log("is not Prime")
 }
